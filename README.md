@@ -2,6 +2,9 @@
 A Python implementation of the subroutine for calculating curvature vorticity and curvature.
 https://sites.google.com/view/cubed/
 
+## Logo
+![cubed](https://github.com/user-attachments/assets/f98caa43-f8b0-4292-9534-e56b564f0706)
+
 ## Features
 - Computes curvature vorticity and curvature from wind field data.
 - Handles periodic boundary conditions for longitude.
