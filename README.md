@@ -12,11 +12,11 @@ https://sites.google.com/view/cubed/
 
 ## Description of the methodology
 The following is based on Okajima et al. (2021). You may also refer to the publication.
-Vorticity can be decomposed locally into shear and curvature terms as follows (e.g., Holton 2004);
+Vorticity can be decomposed locally into shear and curvature terms as follows (e.g., Holton 2004);\
 $$
 \zeta=-\frac{\partial V}{\partial n}+\frac{V}{R_s}
 $$
-where V denotes scalar wind speed, n the direction perpendicular to the flow, and Rs the radius of curvature. The first and second terms of the RHS in the above equation represent shear vorticity and curvature vorticity, respectively, which can be calculated as
+where V denotes scalar wind speed, n the direction perpendicular to the flow, and Rs the radius of curvature. The first and second terms of the RHS in the above equation represent shear vorticity and curvature vorticity, respectively, which can be calculated as\
 $$
 -\frac{\partial V}{\partial n}=-\frac{1}{V^2}(-u v u_x-v^2 v_x+u^2 u_y+u v v_y)
 $$
@@ -25,11 +25,11 @@ $$
 $$
 where u and v denote local zonal and meridional wind velocities, respectively, and subscripts x and y partial derivatives in the zonal and meridional directions, respectively. 
 
-The curvature, defined as
+The curvature, defined as\
 $$
 \kappa_2=\frac{1}{R_s}=\frac{1}{V^3}(-u v u_x+u^2 v_x-v^2 u_y+u v v_y)
 $$
-can be derived from the definition of curvature of a two-dimensional curve implicitly represented by 
+can be derived from the definition of curvature of a two-dimensional curve implicitly represented by\
 $$
 \psi(x,y)=c
 $$
@@ -52,8 +52,8 @@ Examples:
 - Here is a press release for the curvature-based methodology: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00181.html
 
 "Materialization" of cyclonic eddies based on CUBED
-![fig3](https://github.com/user-attachments/assets/d52a92cc-1bdc-4b0e-9f27-85b4f79c712b)
-![fig4](https://github.com/user-attachments/assets/14c2425a-4527-4650-9316-adcde1da3c20)
+<img src="https://github.com/user-attachments/assets/d52a92cc-1bdc-4b0e-9f27-85b4f79c712b" width="320">
+<img src="https://github.com/user-attachments/assets/14c2425a-4527-4650-9316-adcde1da3c20" width="480">
 You can find more detailed information about the "materialization" in the article in Tenki (in Japanese).
 - 岡島悟 (2022): ３次元格子データのmaterialization―3Dプリンタによる”物質化”―，「天気」Vol.69, No.8.PDF
 
