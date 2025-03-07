@@ -51,9 +51,9 @@ Examples:
 
 - Here is a press release for the curvature-based methodology: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00181.html
 
-"Materialization" of cyclonic eddies based on CUBED
-<img src="https://github.com/user-attachments/assets/d52a92cc-1bdc-4b0e-9f27-85b4f79c712b" width="320">
-<img src="https://github.com/user-attachments/assets/14c2425a-4527-4650-9316-adcde1da3c20" width="480">
+"Materialization" of cyclonic eddies based on CUBED\
+<img src="https://github.com/user-attachments/assets/d52a92cc-1bdc-4b0e-9f27-85b4f79c712b" width="320">\
+<img src="https://github.com/user-attachments/assets/14c2425a-4527-4650-9316-adcde1da3c20" width="480">\
 You can find more detailed information about the "materialization" in the article in Tenki (in Japanese).
 - 岡島悟 (2022): ３次元格子データのmaterialization―3Dプリンタによる”物質化”―，「天気」Vol.69, No.8.PDF
 
