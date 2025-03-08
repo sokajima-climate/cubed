@@ -12,11 +12,11 @@ https://sites.google.com/view/cubed/
 
 ## Description of the methodology
 (The following is based on Okajima et al. (2021). You may also refer to the publication.)
-Vorticity can be decomposed locally into shear and curvature terms as follows (e.g., Holton 2004);\
+Vorticity can be decomposed locally into shear and curvature terms as follows (e.g., Holton 2004)
 ```math
 \zeta=-\frac{\partial V}{\partial n}+\frac{V}{R_s}
 ```
-where V denotes scalar wind speed, n the direction perpendicular to the flow, and Rs the radius of curvature. The first and second terms of the RHS in the above equation represent shear vorticity and curvature vorticity, respectively, which can be calculated as\
+where V denotes scalar wind speed, n the direction perpendicular to the flow, and Rs the radius of curvature. The first and second terms of the RHS in the above equation represent shear vorticity and curvature vorticity, respectively, which can be calculated as
 ```math
 -\frac{\partial V}{\partial n}=-\frac{1}{V^2}(-u v u_x-v^2 v_x+u^2 u_y+u v v_y)
 ```
@@ -25,11 +25,11 @@ where V denotes scalar wind speed, n the direction perpendicular to the flow, an
 ```
 where u and v denote local zonal and meridional wind velocities, respectively, and subscripts x and y partial derivatives in the zonal and meridional directions, respectively. 
 
-The curvature, defined as\
+The curvature, defined as
 ```math
 \kappa_2=\frac{1}{R_s}=\frac{1}{V^3}(-u v u_x+u^2 v_x-v^2 u_y+u v v_y)
 ```
-can be derived from the definition of curvature of a two-dimensional curve implicitly represented by\
+can be derived from the definition of curvature of a two-dimensional curve implicitly represented by
 ```math
 \psi(x,y)=c
 ```
