@@ -44,7 +44,7 @@ The curvature or curvature vorticity enables us to circumvent the difficulties i
 
 The curvature-based methodology enables us to evaluate contributions from cyclonic and anticyclonic eddies separately to Eulerian statistics, by accumulating instantaneous contributions only at grid points where cyclonic or anticyclonic curvature is observed.
 
-### Q&A:
+## Q&A:
 ##### Is it possible to calculate the curvature of grid points directly based on the height field? 
 Yes, it is possible to calculate the curvature of grid points based on the height field, by assuming geostrophic equilibrium. Under the assumption of geostrophic equilibrium, the stream function is proportional to the geopotential; ψ = gz/f. Using this relationship, you can calculate the curvature from the geopotential height field.
 (The equation of the curvature from the stream function appears to be the same as the definition of curvature of an implicitly represented two-dimensional curve in the above equation.)
@@ -54,14 +54,14 @@ No, we did not filter the curvature. This is because we wanted to obtain cycloni
 Your curvature threshold will depend on what you are to focus on. Our methodology evaluates the local curvature (or equivalently, curvature radius) of the flow, which represents the flow topology in a physically straightforward fashion.
 If you want to partition all grid points into cyclonic and anticyclonic regions, a threshold of zero curvature would work well. If you are to obtain "transition zones" between cyclonic and anticyclonic regions, a non-zero curvature threshold would be effective. It will be according to the features you want to focus on - for transient eddies, the curvature radius of 2,500km or 3,000km would work as in our paper. Ultimately, it will correspond to what you regard as "cyclonic and anticyclonic regions", which will depend on purposes and contexts. 
 
-##### Examples:
+## Examples:
 
 - Eulerian eddy statistics (such as v't'850, v'v'300) and eddy feedback forcing of westerly wind acceleration: Okajima, S., H. Nakamura, Y. Kaspi: Cyclonic and anticyclonic contributions to atmospheric energetics, Scientific Reports, 11, 13202, 2021.
 - Air-sea turbulent heat flux, precipitation, and associated hydrological cycle: Okajima, S., Nakamura, H., Spengler, T. (2024). Midlatitude oceanic fronts strengthen the hydrological cycle between cyclones and anticyclones. Geophysical Research Letters, 51, e2023GL106187.
 
 - Here is a press release for the curvature-based methodology: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00181.html
 
-##### "Materialization" of cyclonic eddies based on CUBED\
+### "Materialization" of cyclonic eddies based on CUBED\
 <img src="https://github.com/user-attachments/assets/d52a92cc-1bdc-4b0e-9f27-85b4f79c712b" width="320">\
 <img src="https://github.com/user-attachments/assets/14c2425a-4527-4650-9316-adcde1da3c20" width="480">\
 You can find more detailed information about the "materialization" in the article in Tenki (in Japanese).
