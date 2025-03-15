@@ -44,6 +44,16 @@ The curvature or curvature vorticity enables us to circumvent the difficulties i
 
 The curvature-based methodology enables us to evaluate contributions from cyclonic and anticyclonic eddies separately to Eulerian statistics, by accumulating instantaneous contributions only at grid points where cyclonic or anticyclonic curvature is observed.
 
+### Q&A:
+##### Is it possible to calculate the curvature of grid points directly based on the height field? 
+Yes, it is possible to calculate the curvature of grid points based on the height field, by assuming geostrophic equilibrium. Under the assumption of geostrophic equilibrium, the stream function is proportional to the geopotential; ψ = gz/f. Using this relationship, you can calculate the curvature from the geopotential height field.
+(The equation of the curvature from the stream function appears to be the same as the definition of curvature of an implicitly represented two-dimensional curve in the above equation.)
+##### Did you filter the curvature while calculating the curvature from horizontal winds? 
+No, we did not filter the curvature. This is because we wanted to obtain cyclonic & anticyclonic domains that correspond directly to those that appear on weather charts. (Those systems are identified based on unfiltered SLP, for example) If you apply filtering, we will obtain cyclonic/anticyclonic regions that are artificially too symmetric because of filtering. This will make it unable to investigate cyclone-anticyclone asymmetry.
+##### I am still not sure which threshold to adopt.
+Your curvature threshold will depend on what you are to focus on. Our methodology evaluates the local curvature (or equivalently, curvature radius) of the flow, which represents the flow topology in a physically straightforward fashion.
+If you want to partition all grid points into cyclonic and anticyclonic regions, a threshold of zero curvature would work well. If you are to obtain "transition zones" between cyclonic and anticyclonic regions, a non-zero curvature threshold would be effective. It will be according to the features you want to focus on - for transient eddies, the curvature radius of 2,500km or 3,000km would work as in our paper. Ultimately, it will correspond to what you regard as "cyclonic and anticyclonic regions", which will depend on purposes and contexts. 
+
 ##### Examples:
 
 - Eulerian eddy statistics (such as v't'850, v'v'300) and eddy feedback forcing of westerly wind acceleration: Okajima, S., H. Nakamura, Y. Kaspi: Cyclonic and anticyclonic contributions to atmospheric energetics, Scientific Reports, 11, 13202, 2021.
